@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.start-game {
+  font-size: 80px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #da8686;
+  cursor: pointer;
+}
+
+.start-game:hover {
+  background-color: green;
+}
+
+.app {
+  display: flex;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.character-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.character-info img {
+  max-width: 50vw;
+}
+
+.hidden {
+  display: none;
+}
+
+.houses {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.house {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.house img {
+  width: 100px;
+}
